@@ -84,6 +84,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .control-btn:hover {
@@ -485,14 +486,25 @@ header {
     gap: 34px;
 }
 
-.dentist__avt {
+.dentist-item__avt {
     max-width: 100%;
     height: 290px;
     object-fit: cover;
-    margin-bottom: 12px;
+    transition: 0.5s;
 }
 
-.dentist__info {
+.dentist-item__avt-bg {
+    padding-top: 28px;
+    background-color: #eaf6ff;
+    margin-bottom: 12px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.dentist-item:hover .dentist-item__avt {
+    transform: scale(1.2);
+}
+
+.dentist-item__info {
     text-align: center;
 }
 
@@ -503,7 +515,7 @@ header {
     line-height: 1.75; /* 175% */
 }
 
-.dentist__desc {
+.dentist-item__desc {
     color: #575f66;
     font-size: 1.4rem;
     font-weight: 300;
