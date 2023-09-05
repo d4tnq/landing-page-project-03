@@ -51,10 +51,10 @@ a {
 
 .section-heading {
     color: var(--primary-color);
-    font-size: 5rem;
     font-weight: 600;
-    line-height: 1.2; /* 120% */
-    letter-spacing: -0.01rem;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
 }
 
 .section-desc {
@@ -524,4 +524,46 @@ header {
 
 .dentists__control {
     margin-top: 38px;
+}
+
+/* CTA Install */
+
+.cta-install {
+    margin-top: 180px;
+}
+
+.cta-install__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.cta-install-img {
+    display: block;
+    object-fit: cover;
+    margin-top: -95px;
+    width: 284px;
+}
+
+.cta-install__right {
+    max-width: 586px;
+    max-height: 100%;
+}
+
+.cta-install__heading {
+    max-width: 489px;
+    color: #fff;
+}
+
+.cta-install__desc {
+    color: #fff;
+    margin: 18px 0 38px;
+}
+
+.cta-install__row {
+    display: flex;
+    gap: 28px;
 }
