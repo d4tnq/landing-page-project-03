@@ -316,6 +316,7 @@ header {
     background: #fff;
     display: flex;
     padding: 21px 18px 20px 22px;
+    transition: 0.2s;
 }
 
 .services-item__icon {
@@ -327,6 +328,7 @@ header {
     background-color: #eff6fd;
     margin-right: 19px;
     color: var(--primary-color);
+    transition: 0.2s;
 }
 
 .services-item:hover {
@@ -338,6 +340,7 @@ header {
 .services-item:hover .services-item__icon {
     background-color: #2e80ce;
     color: #fff;
+    transform: ;
 }
 
 .services-item__heading {
