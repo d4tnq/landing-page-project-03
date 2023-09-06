@@ -697,3 +697,150 @@ header {
     line-height: 1.75; /* 175% */
     margin-bottom: 38px;
 }
+
+/* Footer */
+
+.footer {
+    padding: 100px 0 42px;
+    background: var(--primary-color);
+}
+
+.footer-column:last-child {
+    width: 264px;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__desc {
+    width: 336px;
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    margin-top: 21px;
+}
+
+.footer-column:last-child {
+    width: 28%;
+}
+
+.footer-column__title {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    margin-bottom: ;
+}
+
+.footer-column__link {
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.footer-item {
+    margin-bottom: 28px;
+}
+
+.footer-column__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-column__title {
+    margin-bottom: 20px;
+}
+
+.footer-column__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-column__socials-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background: #ffffff;
+    color: #2e80ce;
+    border: transparent;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.footer-column__socials-icon:hover {
+    color: #fff;
+    background: #2e80ce;
+    cursor: pointer;
+}
+
+.footer-column__desc {
+    width: 273px;
+    color: #a9b3bb;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+    margin-bottom: 10px;
+}
+
+.footer-column__subscribe {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-column__email {
+    height: 46px;
+    background: transparent;
+    border: 1px solid #406181;
+    color: #9ca8b1;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+    padding: 10px;
+}
+
+.footer-column__subscribe-btn {
+    border: transparent;
+    border-radius: 4px;
+    background: #2e80ce;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86; /* 185.714% */
+    padding: 10px 21px;
+    cursor: pointer;
+}
+
+.footer-column__subscribe-btn:hover {
+    opacity: 0.9;
+}
+
+ht.solid {
+    height: 1px;
+    background: #406181;
+}
+
+.copyright {
+    margin-top: 28px;
+    color: #aab3ba;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
